@@ -59,7 +59,7 @@ const Skills = () => {
                         <p className="text-purple-400 mt-1">{skil.name}</p>
                     </div>
                 </Tilt>
-            })};
+            })}
         </div>
     </div>
 };
