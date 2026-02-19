@@ -6,7 +6,7 @@ const Projects = () => {
     <div className="pt-16 pb-16">
         <h1 className="text-center text-2xl md:text-4xl xl:text-5xl font-bold text-white">
             Recent {" "}
-            <span className="text-cyan-300">Project</span>
+            <span className="text-cyan-300">Projects</span>
         </h1>
         <div className="w-[60%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 mt-16">
             { /* 1st project */}

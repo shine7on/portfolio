@@ -6,7 +6,7 @@ const Services = () => {
         <h1 className="text-center text-2xl md:text-4xl xl:text-5xl font-bold text-white">
             Colleborate with brand <br /> and agencies to create<br />imppactful results
         </h1>
-        <div className="w-[99%] sm:w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10 mt-20
+        <div className="w-[99%] sm:w-[70%] mx-auto grid grid-cols-1 mb:grid-cols-2 xl:grid-cols-4 gap-10 mt-20
         items-center">
             <div>
                 <ServiceCard icon="/images/s1.png"
