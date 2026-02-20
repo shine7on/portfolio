@@ -1,6 +1,6 @@
 import React from 'react'
 import Hero from './Hero/hero';
-import Services from './Services/Services';
+// import Services from './Services/Services';
 import Projects from './Projects/Projects';
 import Skills from './Skills/Skills';
 import Contact from './Contact/Contact';
