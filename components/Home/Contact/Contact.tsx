@@ -43,22 +43,18 @@ const Contact = () => {
                 </div>
                 { /* social icon */ }
                 <div className='flex items-center mt-8 space-x-3'>
-                    <div className='w-14 h-14 bg-blue-950/60 rounded-full flex items-center justify-center
-                    cursor-pointer flex-col hover:bg-blue-800 transition-all duration-300'>
-                        <FaFacebookF className='text-white w-6 h-6' />
-                    </div>
-                    <div className='w-14 h-14 bg-blue-950/60 rounded-full flex items-center justify-center
+                    <div className='w-14 h-14 bg-pink-600/60 rounded-full flex items-center justify-center
                     cursor-pointer flex-col hover:bg-blue-800 transition-all duration-300'>
                         <FaLinkedin className='text-white w-6 h-6' />
                     </div>
-                    <div className='w-14 h-14 bg-blue-950/60 rounded-full flex items-center justify-center
+                    <div className='w-14 h-14 bg-pink-600/60 rounded-full flex items-center justify-center
                     cursor-pointer flex-col hover:bg-blue-800 transition-all duration-300'>
                         <FaGithub className='text-white w-6 h-6' />
                     </div>
                 </div>
             </div>
             { /* form */ }
-            <div className='md:p-10 p-5 bg-[#131332] rounded-lg'>
+            <div className='md:p-10 p-5 bg-blue-700/20 rounded-lg'>
                 <input 
                     type="text" 
                     placeholder='Name' 
@@ -71,18 +67,12 @@ const Contact = () => {
                     className='px-4 py-3.5 mt-6 bg-[#363659] text-white
                     outline-none rounded-md w-full placeholder:text-white/70' 
                 />
-                <input 
-                    type="text" 
-                    placeholder='Mobile Number' 
-                    className='px-4 py-3.5 mt-6 bg-[#363659] text-white
-                    outline-none rounded-md w-full placeholder:text-white/70' 
-                />
                 <textarea 
                     placeholder='Your Message' 
                     className='px-4 py-3.5 mt-6 bg-[#363659] text-white
                     outline-none rounded-md w-full placeholder:text-white/70 h-[10rem]' 
                 />
-                <button className='mt-8 px-12 py-4 bg-blue-950 hover:bg-blue-900 transition-all
+                <button className='mt-8 px-12 py-4 bg-pink-800 hover:bg-pink-600 transition-all
                 duration-300 cursor-pointer text-white rounded-full'>
                     Send Message
                 </button>

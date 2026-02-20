@@ -1,8 +1,9 @@
 'use client';
 import React from "react";
-import { SiJavascript, 
+import { SiAutodesk, SiDjango, SiJavascript, 
          SiNextdotjs, 
          SiNodedotjs, 
+         SiPython, 
          SiReact, 
          SiTailwindcss, 
          SiTypescript } 
@@ -12,51 +13,53 @@ import Tilt from 'react-parallax-tilt';
 
 const skills = [
     {
-        name:'JavaScript',
-        icon:<SiJavascript />,
-        percentage: 89,
+        name:'Python',
+        icon:<SiPython />,
     },
     {
-        name:'React Js',
-        icon:<SiReact />,
-        percentage: 92,
-    },
-    {
-        name:'Next.js',
-        icon:<SiNextdotjs />,
-        percentage: 90,
-    },
-    {
-        name:'Node.js',
-        icon:<SiNodedotjs />,
-        percentage: 88,
-    },
-    {
-        name:'Tailwind CSS',
-        icon:<SiTailwindcss/>,
-        percentage: 94,
+        name:'Django',
+        icon:<SiDjango/>,
     },
     {
         name:'TypeScript',
         icon:<SiTypescript />,
-        percentage: 86,
+    },
+    {
+        name:'React',
+        icon:<SiReact />,
+    },
+    {
+        name:'Next.js',
+        icon:<SiNextdotjs />,
+    },
+    {
+        name:'Tailwind CSS',
+        icon:<SiTailwindcss />,
+    },
+    {
+        name:'Fusion360',
+        icon:<SiAutodesk/>,
     },
 ];
 
 const Skills = () => {
     return <div className="text-white pt-16 pb-16">
         <h1 className="text-center text-2xl mb:text-4xl xl:text-5xl font-bold text-white">
-            My {" "}
-            <span className="text-cyan-200">Skills</span>
+            About {" "}
+            <span className="text-pink-400">Me</span>
         </h1>
+        <p className="text-center text-white pt-5 text-xl">
+            こんにちは！ I'm Shinon.<br />
+            I'm particularly interested in projects related to dogs and pet care.<br />
+            When I'm not coding, I'm walking my dog ( Pablo🐶 ) or dancing at studio 🎧
+        </p>
         <div className="flex flex-wrap justify-center gap-6 mt-16">
             {skills.map((skil)=>{
                 return <Tilt key={skil.name} scale={1.5} transitionSpeed={400}>
-                    <div className="bg-[#14134145] text-center w-40 h-48 rounded-3xl flex flex-col
-                    items-center justify-center shadow-lg transition hover:scale-105">
+                    <div className="bg-[#14134145] text-center w-30 h-38 rounded-3xl flex flex-col
+                    items-center justify-center shadow-lg transition hover:scale-100">
                         <div className="text-5xl mb-5 text-gray-300">{skil.icon}</div>
-                        <p className="text-2xl font-semibold">{skil.percentage}</p>
-                        <p className="text-purple-400 mt-1">{skil.name}</p>
+                        <p className="text-pink-400 mt-1 font-semibold font-mono">{skil.name}</p>
                     </div>
                 </Tilt>
             })}

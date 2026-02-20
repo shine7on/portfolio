@@ -13,7 +13,7 @@ const font = Inter({
 
 // important for SEO purpose
 export const metadata: Metadata = {
-  title: "Shinon Portfolio | Next.js",
+  title: "Shinon's Portfolio",
   description: "Portfolio built with Next.js",
 };
 
@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${font.className} antialiased bg-[#0d0d1f]`}>
+      <body className={`${font.className} antialiased bg-[#000000]`}>
         <ResponsiveNav/>
         {}
         {children}

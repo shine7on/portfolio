@@ -9,9 +9,8 @@ import Contact from './Contact/Contact';
 const Home = () => {
     return <div className = "overflow-hidden">
         <Hero />
-        <Services />
-        <Projects />
         <Skills />
+        <Projects />
         <Contact />
     </div>;
 };

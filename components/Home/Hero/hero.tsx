@@ -5,29 +5,23 @@ import React from "react";
 import { BsArrowRight } from "react-icons/bs";
 import Typewriter from "typewriter-effect";
 import ParticlesHero from "./ParticleBackground";
+import VantaCloudsBackground from "./CloudBackground";
 
 const Hero = () => {
     return <div className="relative h-screen flex items-center justify-center text-white overflow-hidden flex-col">
 
-        <ParticlesHero/>
+        <VantaCloudsBackground/>
         <div className="relative z-10 flex flex-col items-center">
-            <Image 
-                src="/images/s1.jpg" 
-                alt="heroimage" 
-                width={150} 
-                height={150} 
-                className="rounded-full border-8 border-[#0c0c48aa]"/>
             <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl mt-6 text-center font-bold tracking-wide">
-                Creating web products, <br />
-                brands, 
-                <span className="text-cyan-200"> and experiences.</span>
+                Hi! I'm {" "}
+                <span className="text-pink-400">Shinon</span>
             </h1>
             <h2 className="mt-5 text-sm px-2 sm:text-2xl font-medium flex items-center gap-2">
-                Hi! I'm Shinon - A Passionate
-                <span className="text-cyan-200 font-bold">
+                A Passionate
+                <span className="text-pink-400 font-bold">
                     <Typewriter options={{
                         strings:[
-                            " Frontend Developer",
+                            "Frontend Developer",
                             "Backend Developer",
                             "Web Developer",
                         ],
@@ -39,15 +33,26 @@ const Hero = () => {
                     }}/>
                 </span>
             </h2>
-            <button className="mt-6 px-10 py-4 bg-blue-800 hover:gb-blue-900 transition-all duration-300
-            cursor-pointer rounded-full text-lg font-medium">
+            <button className="mt-6 px-10 py-4 bg-linear-to-r from-pink-600 via-pink-500 to-pink-600 
+            hover:from-pink-500 hover:via-pink-400 hover:to-pink-500
+            transition-all duration-300 cursor-pointer rounded-full text-lg font-medium">
                 <span>See my work</span>
                 <BsArrowRight className="w-5 h-5 ml-2 inline-block" />
 
             </button>
         </div>
+        <div className="absolute bottom-0 left-0 w-full h-40 bg-gradient-to-b from-transparent to-black pointer-events-none" />
     </div>;
 };
 
 
 export default Hero;
+
+/*
+<Image 
+                src="/images/s1.jpg" 
+                alt="heroimage" 
+                width={150} 
+                height={150} 
+                className="rounded-full border-8 border-[#0c0c48aa]"/>
+*/
