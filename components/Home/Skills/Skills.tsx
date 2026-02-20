@@ -44,11 +44,11 @@ const skills = [
 
 const Skills = () => {
     return <div className="text-white pt-16 pb-16">
-        <h1 className="text-center text-2xl mb:text-4xl xl:text-5xl font-bold text-white">
+        <h1 className="text-center text-2xl md:text-4xl xl:text-5xl font-bold text-white">
             About {" "}
             <span className="text-pink-400">Me</span>
         </h1>
-        <p className="text-center text-white pt-5 text-xl">
+        <p className="text-center text-white pt-10 text-xl md:text-md sm:text-sm">
             こんにちは！ I'm Shinon.<br />
             I'm particularly interested in projects related to dogs and pet care.<br />
             When I'm not coding, I'm walking my dog ( Pablo🐶 ) or dancing at studio 🎧

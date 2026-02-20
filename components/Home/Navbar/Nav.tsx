@@ -59,8 +59,10 @@ const Nav = ({openNav}:Props) => {
             {/* button */}
             <div className="flex items-center space-x-4">
                 {/* CV button */}
-                <button className="px-6 py-3.5 text-sm cursor-pointer rounded-lg
-                 bg-pink-400 hover:bg-pink-600 transition-all duration-300 text-white flex items-center space-x-2">
+                <button className="px-6 py-3.5 text-sm cursor-pointer rounded-lg font-bold
+                bg-linear-to-r from-pink-500 via-pink-500 to-pink-600
+                hover:from-pink-500 hover:via-pink-600 hover:to-pink-700  
+                transition-all duration-300 text-white flex items-center space-x-2">
                     <BiDownload className="w-5 h-5" />
                     <span>Resume</span>
                 </button>

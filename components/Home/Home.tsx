@@ -4,13 +4,14 @@ import Services from './Services/Services';
 import Projects from './Projects/Projects';
 import Skills from './Skills/Skills';
 import Contact from './Contact/Contact';
-// heavy thing will be here
+import Research from './Research/Research';
 
 const Home = () => {
     return <div className = "overflow-hidden">
         <Hero />
         <Skills />
         <Projects />
+        <Research />
         <Contact />
     </div>;
 };
