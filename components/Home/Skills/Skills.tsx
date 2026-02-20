@@ -43,16 +43,16 @@ const skills = [
 ];
 
 const Skills = () => {
-    return <div className="text-white pt-16 pb-16">
+    return <div id="skills" className="text-white pt-16 pb-16">
         <h1 className="text-center text-2xl md:text-4xl xl:text-5xl font-bold text-white">
             About {" "}
             <span className="text-pink-400">Me</span>
         </h1>
-        <p className="text-center text-white pt-10 text-xl md:text-md sm:text-sm">
+        <h1 className="text-center text-white pt-10">
             こんにちは！ I'm Shinon.<br />
             I'm particularly interested in projects related to dogs and pet care.<br />
             When I'm not coding, I'm walking my dog ( Pablo🐶 ) or dancing at studio 🎧
-        </p>
+        </h1>
         <div className="flex flex-wrap justify-center gap-6 mt-16">
             {skills.map((skil)=>{
                 return <Tilt key={skil.name} scale={1.5} transitionSpeed={400}>

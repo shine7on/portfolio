@@ -30,7 +30,7 @@ const Nav = ({openNav}:Props) => {
     }, []);
 
   return (
-    <div className={`transition-all ${navBg ? 'bg-[#1e091ad9] shadow-md' : "fixed" } duration-200 h-[10vh] z-[10000] fixed w-full`}>
+    <div id="home" className={`transition-all ${navBg ? 'bg-[#1e091ad9] shadow-md' : "fixed" } duration-200 h-[10vh] z-[10000] fixed w-full`}>
         <div className="flex items-center h-full justify-between w-[90%] mx-auto">
             {/* logo */}
             <div className="flex item-center space-x-2 justify-center">

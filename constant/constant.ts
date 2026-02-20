@@ -1,29 +1,29 @@
 // store constant variables
-
+// TODO: add 3D Model showcase 
 export const NavLinks = [
     {
         id:1,
-        url:"#",
+        url:"#home",
         label:"Home",
     },
     {
         id:2,
-        url:"#",
+        url:"#skills",
         label:"Skills",
     },
     {
         id:3,
-        url:"#",
+        url:"#projects",
         label:"Projects",
     },
     {
         id:4,
-        url:"#",
-        label:"3D Models",
+        url:"#research",
+        label:"Research",
     },
     {
         id:5,
-        url:"#",
+        url:"#contact",
         label:"Contact",
     },
 ];
