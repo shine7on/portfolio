@@ -23,14 +23,14 @@ const Contact = () => {
                     <div className='flex items-center space-x-3 mb-4'>
                         <BiPhone className='w-9 h-9 text-pink-300' />
                         <p className='text-xl font-bold text-gray-400'>
-                            XXX-XXX-XXXX
+                            641-643-0560
                         </p>
                     </div>
                     { /* emaili */ }
                     <div className='flex items-center space-x-3 mb-4'>
                         <BsEnvelopeHeart className='w-9 h-9 text-pink-300' />
                         <p className='text-xl font-bold text-gray-400'>
-                            hello@example.com
+                            pabboo13@gmail.com
                         </p>
                     </div>
                     { /* phone num 
@@ -44,14 +44,14 @@ const Contact = () => {
                 </div>
                 { /* social icon */ }
                 <div className='flex items-center mt-8 space-x-3'>
-                    <div className='w-14 h-14 bg-pink-500 rounded-full flex items-center justify-center
+                    <a href='https://www.linkedin.com/in/shinon-takei/' className='w-14 h-14 bg-pink-500 rounded-full flex items-center justify-center
                     cursor-pointer flex-col hover:bg-pink-700 transition-all duration-300'>
                         <FaLinkedin className='text-white w-6 h-6' />
-                    </div>
-                    <div className='w-14 h-14 bg-pink-500 rounded-full flex items-center justify-center
+                    </a>
+                    <a href='https://github.com/shine7on' className='w-14 h-14 bg-pink-500 rounded-full flex items-center justify-center
                     cursor-pointer flex-col hover:bg-pink-700 transition-all duration-300'>
                         <FaGithub className='text-white w-6 h-6' />
-                    </div>
+                    </a>
                 </div>
             </div>
             { /* form */ }
