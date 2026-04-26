@@ -48,7 +48,7 @@ const Skills = () => {
             About {" "}
             <span className="text-pink-400">Me</span>
         </h1>
-        <h1 className="text-center text-white pt-10">
+        <h1 className="text-center text-white pt-9">
             こんにちは！ I'm Shinon.<br />
             I'm particularly interested in projects related to dogs and pet care.<br />
             When I'm not coding, I'm walking my dog ( Pablo🐶 ) or dancing at studio 🎧

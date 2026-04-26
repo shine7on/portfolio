@@ -13,7 +13,7 @@ const Projects = () => {
         {/* 1st project */}
         <div>
         <Image
-            src="/images/p1.jpg"
+            src="/images/portfolio.jpg"
             alt="image"
             width={500}
             height={300}
@@ -25,26 +25,56 @@ const Projects = () => {
         {/* Text + Github wrapper */}
         <div className="mt-4 flex items-center">
             <div>
-            <h1 className="text-xl sm:text-2xl font-semibold text-white">
-                Portfolio
-            </h1>
-            <p className="pt-2 font-medium text-white/80">
-                TypeScript, React, Tailwind CSS
-            </p>
+                <h1 className="text-xl sm:text-2xl font-semibold text-white">
+                    Portfolio
+                </h1>
+                <p className="pt-2 font-medium text-white/80">
+                    TypeScript, React, Tailwind CSS
+                </p>
             </div>
 
             <a
-            href="https://github.com/yourusername/project"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-12 h-12 ml-50 bg-pink-500 rounded-full flex items-center justify-between
-            cursor-pointer hover:bg-pink-700 transition-all duration-300"
-            >
-            <FaGithub className="text-white w-14 h-5" />
+                href="https://github.com/shine7on/portfolio"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-12 h-12 ml-50 bg-pink-500 rounded-full flex items-center justify-between
+                cursor-pointer hover:bg-pink-700 transition-all duration-300"
+                >
+                <FaGithub className="text-white w-14 h-5" />
             </a>
         </div>
+        
         </div>
             { /* 2nd project */}
+            <div>
+                <Image src="/images/shelter_web.png" 
+                alt='image' 
+                width={500} 
+                height={300} 
+                className="rounded-lg shadow-[0_0_40px_rgba(255,255,255,0.3)] 
+                hover:shadow-[0_0_70px_rgba(236,72,153,0.8)]
+                transition-all duration-300"/>
+                <div className="mt-4 flex items-center">
+                <div>
+                    <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
+                        Shelter Website
+                    </h1>
+                    <p className="pt-2 font-medium text-white/80">
+                        JavaScript, Python, Django
+                    </p>
+                </div>
+                <a
+                    href="https://github.com/shine7on/shelter-website"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-12 h-12 ml-50 bg-pink-500 rounded-full flex items-center justify-between
+                    cursor-pointer hover:bg-pink-700 transition-all duration-300"
+                    >
+                    <FaGithub className="text-white w-14 h-5" />
+                </a>
+                </div>
+            </div>
+            { /* 3rd project */}
             <div>
                 <Image src="/images/p2.jpg" 
                 alt='image' 
@@ -53,44 +83,83 @@ const Projects = () => {
                 className="rounded-lg shadow-[0_0_40px_rgba(255,255,255,0.3)] 
                 hover:shadow-[0_0_70px_rgba(236,72,153,0.8)]
                 transition-all duration-300"/>
-                <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
-                    Dog Vet Tracking System
-                </h1>
-                <h1 className="pt-2 font-medium text-white/80">
-                    Python, Django
-                </h1>
-            </div>
-            { /* 3rd project */}
-            <div>
-                <Image src="/images/p3.jpg" 
-                alt='image' 
-                width={500} 
-                height={300} 
-                className="rounded-lg shadow-[0_0_40px_rgba(255,255,255,0.3)] 
-                hover:shadow-[0_0_70px_rgba(236,72,153,0.8)]
-                transition-all duration-300"/>
-                <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
-                    Smart Feeder System
-                </h1>
-                <h1 className="pt-2 font-medium text-white/80">
-                    C, Python, Arduino
-                </h1>
+                <div className="mt-4 flex items-center">
+                <div>
+                    <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
+                        Smart Feeder System
+                    </h1>
+                    <p className="pt-2 font-medium text-white/80">
+                        C, Python, Arduino
+                    </p>
+                </div>
+                <a
+                    href="https://github.com/yourusername/project"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-12 h-12 ml-50 bg-pink-500 rounded-full flex items-center justify-between
+                    cursor-pointer hover:bg-pink-700 transition-all duration-300"
+                    >
+                    <FaGithub className="text-white w-14 h-5" />
+                </a>
+                </div>
             </div>
             { /* 4th project */}
             <div>
-                <Image src="/images/p4.jpg" 
+                <Image src="/images/p2.jpg" 
                 alt='image' 
                 width={500} 
                 height={300} 
                 className="rounded-lg shadow-[0_0_40px_rgba(255,255,255,0.3)] 
                 hover:shadow-[0_0_70px_rgba(236,72,153,0.8)]
                 transition-all duration-300"/>
-                <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
-                    Escape Room
-                </h1>
-                <h1 className="pt-2 font-medium text-white/80">
-                    Kotlin, Java
-                </h1>
+                <div className="mt-4 flex items-center">
+                <div>
+                    <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
+                        Escape Room
+                    </h1>
+                    <p className="pt-2 font-medium text-white/80">
+                        Kotlin, Java
+                    </p>
+                </div>
+                <a
+                    href="https://github.com/yourusername/project"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-12 h-12 ml-50 bg-pink-500 rounded-full flex items-center justify-between
+                    cursor-pointer hover:bg-pink-700 transition-all duration-300"
+                    >
+                    <FaGithub className="text-white w-14 h-5" />
+                </a>
+                </div>
+            </div>
+            { /* 5th project */ }
+            <div>
+                <Image src="/images/p2.jpg" 
+                alt='image' 
+                width={500} 
+                height={300} 
+                className="rounded-lg shadow-[0_0_40px_rgba(255,255,255,0.3)] 
+                hover:shadow-[0_0_70px_rgba(236,72,153,0.8)]
+                transition-all duration-300"/>
+                <div className="mt-4 flex items-center">
+                <div>
+                    <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
+                        Upcoming... Vet Tracking System
+                    </h1>
+                    <p className="pt-2 font-medium text-white/80">
+                        Python, Django
+                    </p>
+                </div>
+                <a
+                    href="https://github.com/yourusername/project"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-12 h-12 ml-50 bg-pink-500 rounded-full flex items-center justify-between
+                    cursor-pointer hover:bg-pink-700 transition-all duration-300"
+                    >
+                    <FaGithub className="text-white w-14 h-5" />
+                </a>
+                </div>
             </div>
         </div>
     </div>
