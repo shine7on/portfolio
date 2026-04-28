@@ -41,10 +41,12 @@ const Hero = () => {
                     }}/>
                 </span>
             </h2>
-            <button className="mt-20 px-10 py-4 sm:px-8 sm:py-3 md:px-10 md:py-4
-            bg-linear-to-r from-pink-400 via-pink-500 to-pink-600
-            hover:from-pink-500 hover:via-pink-600 hover:to-pink-700 
-            transition-all duration-300 cursor-pointer rounded-full text-lg font-medium">
+            <button 
+                onClick={() => document.getElementById('skills')?.scrollIntoView({ behavior: 'smooth' })}
+                className="mt-20 px-10 py-4 sm:px-8 sm:py-3 md:px-10 md:py-4
+                bg-linear-to-r from-pink-400 via-pink-500 to-pink-600
+                hover:from-pink-500 hover:via-pink-600 hover:to-pink-700 
+                transition-all duration-300 cursor-pointer rounded-full text-lg font-medium">
                 <span>See my work</span>
                 <BsArrowThroughHeart className="w-5 h-5 ml-2 inline-block" />
 

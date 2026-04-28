@@ -132,7 +132,7 @@ const Projects = () => {
                 </a>
                 </div>
             </div>
-            { /* 5th project */ }
+            { /* 5th project 
             <div>
                 <Image src="/images/p2.jpg" 
                 alt='image' 
@@ -161,6 +161,7 @@ const Projects = () => {
                 </a>
                 </div>
             </div>
+            */ }
         </div>
     </div>
     );
