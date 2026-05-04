@@ -76,7 +76,7 @@ const Projects = () => {
             </div>
             { /* 3rd project */}
             <div>
-                <Image src="/images/p2.jpg" 
+                <Image src="/images/feeder1.png" 
                 alt='image' 
                 width={500} 
                 height={300} 
@@ -89,11 +89,11 @@ const Projects = () => {
                         Smart Feeder System
                     </h1>
                     <p className="pt-2 font-medium text-white/80">
-                        C, Python, Arduino
+                        Python, Arduino
                     </p>
                 </div>
                 <a
-                    href="https://github.com/yourusername/project"
+                    href="https://github.com/shine7on/smart-feeder"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-12 h-12 ml-50 bg-pink-500 rounded-full flex items-center justify-between
@@ -105,7 +105,7 @@ const Projects = () => {
             </div>
             { /* 4th project */}
             <div>
-                <Image src="/images/p2.jpg" 
+                <Image src="/images/escaperoom1.png" 
                 alt='image' 
                 width={500} 
                 height={300} 
@@ -122,7 +122,7 @@ const Projects = () => {
                     </p>
                 </div>
                 <a
-                    href="https://github.com/yourusername/project"
+                    href="https://github.com/shine7on/EscapeFromMidnightClaus"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-12 h-12 ml-50 bg-pink-500 rounded-full flex items-center justify-between
